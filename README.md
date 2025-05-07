@@ -15,13 +15,7 @@ Este proyecto contiene pruebas para una API de inventario utilizando Karate, un 
 1. Clona el repositorio:
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   ```
-
-2. Navega al directorio del proyecto:
-
-   ```bash
-   cd <DIRECTORIO_DEL_PROYECTO>
+   git clone https://github.com/BritezDiego/home-test-api
    ```
 
 ### Construir el proyecto
@@ -91,17 +85,3 @@ Scenario: Get all menu items
 5. **Add item with missing info:** Intenta añadir un artículo con datos faltantes (por ejemplo, sin ID) y valida que la respuesta tenga un código de estado 400 y un mensaje de error adecuado.
 
 6. **Validate recent added item is present in the inventory:** Después de agregar un artículo, valida que este artículo se haya agregado correctamente al inventario consultando su `id` específico.
-
-## Contribución
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b mi-rama`).
-3. Realiza tus cambios y confirma (`git commit -am 'Agrega nuevas pruebas'`).
-4. Empuja a tu rama (`git push origin mi-rama`).
-5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
